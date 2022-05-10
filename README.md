@@ -21,7 +21,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 termux-setup-storage
 apt update && apt upgrade
 pkg install nodejs git ffmpeg libwebp imagemagick
-git clone https://github.com/abdibot/vanzzofc1/
+git clone https://github.com/abdibot/vanzzofc1
 cd vanzzofc1
 pkg install yarn
 yarn install
