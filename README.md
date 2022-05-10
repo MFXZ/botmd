@@ -7,3 +7,27 @@
 # Official Group
 - [Group 1](https://chat.whatsapp.com/KdLwTm1ZIgK7Jqyui22kLc)
 - [Group 2](https://chat.whatsapp.com/Lx0C83vuq5CCcR9FLoQre5)
+
+
+# Instalasi
+## Heroku Buildpack
+```bash
+heroku/nodejs
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+## For Termux
+```ts
+termux-setup-storage
+apt update && apt upgrade
+pkg install nodejs git ffmpeg libwebp imagemagick
+git clone https://github.com/abdibot/vanzzofc1/
+cd vanzzofc1
+pkg install yarn
+yarn install
+npm i -g typescript
+tsc -p ./node_modules/@adiwajshing/baileys-md/
+rm -rf session.json
+rm -rf store.json
+npm start
+```
