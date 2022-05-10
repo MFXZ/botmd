@@ -60,3 +60,24 @@ global.packname = '© VANZZ BOTZ' //sticker wm ubah
 global.author = 'Di Buat Oleh vanzzofc' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 ```
+
+
+## DEPLOY TERMUX KE HEROKU
+```ts
+apt update
+apt upgrade
+pkg install nodejs 
+pkg install yarn
+yarn add heroku
+npm install -g npm
+heroku version
+heroku login
+cd /sdcard
+cd nama file
+git init
+heroku git:remote -a repo heroku kalian
+git add .
+git commit -am "nama file"
+git push heroku master
+dan udah ke deploy sendiri
+```
